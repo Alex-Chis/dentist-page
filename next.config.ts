@@ -4,19 +4,10 @@ const nextConfig: NextConfig = {
   /* config options here */
   output: "export",
   images: {
-    unoptimized: true},
+    unoptimized: true,},
   reactStrictMode: true,
-};module.exports = {
-  // ... other config options ...
-  exportPathMap: async () => {
-    // ... other export path map options ...
-  },
-  copy: [
-    {
-      from: 'styles',
-      to: 'styles',
-    },
-  ],
+  distDir: 'dist',
+  trailingSlash: true,
 };
-
+module.exports = nextConfig;
 export default nextConfig;
