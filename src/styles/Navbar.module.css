@@ -1,0 +1,110 @@
+.textLogo {
+  font-family: Manrope;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.textLogo2 {
+  font-family: Manrope;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 20px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.navmenu {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-evenly;
+  gap: 1.5rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 22px;
+}
+
+.navmenu a {
+  text-decoration: none;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #000a2d;
+}
+
+.navmenu a:hover {
+  color: #0e89fc;
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.button {
+  width: 208px;
+  height: 60px;
+  border: none;
+  background: #0e89fc;
+  color: #fbfbfb;
+  border-radius: 4px;
+  font-family: Manrope;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.button:hover {
+  outline: 2px solid #0e89fc;
+  color: #0e89fc;
+  background-color: #fbfbfb;
+  cursor: pointer;
+}
+
+.menu {
+  display: none;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay .main {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 735px) {
+  .navmenu,
+  .button {
+    display: none;
+  }
+
+  .menu {
+    display: block;
+  }
+
+  
+}

@@ -1,0 +1,26 @@
+.inline {
+  display: flex;
+}
+.flexBetween {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0.2rem 0;
+}
+
+.flexEven {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.right {
+  margin-left: auto;
+}
+
+@media screen and (max-width: 735px) {
+  .flexBetween {
+    display: none;
+  }
+}
