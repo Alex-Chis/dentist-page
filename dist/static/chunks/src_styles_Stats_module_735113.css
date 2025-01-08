@@ -1,0 +1,32 @@
+/* [project]/src/styles/Stats.module.css [client] (css) */
+.Stats-module__5OtIWa__statsContainer {
+  position: relative;
+  bottom: 45px;
+  min-height: 150px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  background-color: #f1f8ff;
+}
+
+.Stats-module__5OtIWa__stats {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.Stats-module__5OtIWa__statsText {
+  display: flex;
+  gap: .5rem;
+}
+
+@media screen and (width <= 735px) {
+  .Stats-module__5OtIWa__statsContainer {
+    flex-direction: column;
+    position: static;
+  }
+}
+
+/*# sourceMappingURL=src_styles_Stats_module_735113.css.map*/

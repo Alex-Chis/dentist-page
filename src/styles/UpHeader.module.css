@@ -2,7 +2,7 @@
   display: flex;
 }
 .flexBetween {
-  padding-top: 20px;
+  padding-top: 10px;
   display: flex;
   justify-content: space-between;
   margin: 0.2rem 0;
@@ -22,5 +22,12 @@
 @media screen and (max-width: 735px) {
   .flexBetween {
     display: none;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .flexBetween {
+    padding: 0px;
+    margin: 0;
   }
 }

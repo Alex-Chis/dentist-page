@@ -1,0 +1,121 @@
+/* [project]/src/styles/Navbar.module.css [client] (css) */
+.Navbar-module__P48_Aa__container {
+  height: 60px;
+}
+
+.Navbar-module__P48_Aa__textLogo {
+  font-family: Manrope;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.Navbar-module__P48_Aa__textLogo2 {
+  font-family: Manrope;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 20px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.Navbar-module__P48_Aa__navmenu {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-evenly;
+  gap: 1.5rem;
+}
+
+.Navbar-module__P48_Aa__navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 22px;
+}
+
+.Navbar-module__P48_Aa__navmenu a {
+  text-decoration: none;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #000a2d;
+}
+
+.Navbar-module__P48_Aa__navmenu a:hover {
+  color: #0e89fc;
+  transform: scale(1.1);
+  transition: all .3s ease-in-out;
+}
+
+.Navbar-module__P48_Aa__button {
+  width: 208px;
+  height: 50px;
+  border: none;
+  background: #0e89fc;
+  color: #fbfbfb;
+  border-radius: 4px;
+  font-family: Manrope;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.Navbar-module__P48_Aa__button:hover {
+  outline: 2px solid #0e89fc;
+  color: #0e89fc;
+  background-color: #fbfbfb;
+  cursor: pointer;
+}
+
+.Navbar-module__P48_Aa__menu {
+  display: none;
+}
+
+.Navbar-module__P48_Aa__overlay {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #00000080;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Navbar-module__P48_Aa__overlay .Navbar-module__P48_Aa__main {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #0003;
+}
+
+@media screen and (width <= 735px) {
+  .Navbar-module__P48_Aa__navmenu, .Navbar-module__P48_Aa__button {
+    display: none;
+  }
+
+  .Navbar-module__P48_Aa__menu {
+    display: block;
+  }
+
+  .Navbar-module__P48_Aa__container {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #fbfbfb;
+    z-index: 999;
+  }
+}
+
+/*# sourceMappingURL=src_styles_Navbar_module_735113.css.map*/

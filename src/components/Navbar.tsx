@@ -9,7 +9,7 @@ export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <div>
+    <div className={styles.container}>
       <div className={styles.navbar}>
         <div className={styles.logoHeader}>
           <h1 className={styles.textLogo}>Clinica</h1>

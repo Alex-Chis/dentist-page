@@ -1,0 +1,37 @@
+/* [project]/src/styles/UpHeader.module.css [client] (css) */
+.UpHeader-module__C5QAlG__inline {
+  display: flex;
+}
+
+.UpHeader-module__C5QAlG__flexBetween {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin: .2rem 0;
+}
+
+.UpHeader-module__C5QAlG__flexEven {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: .5rem;
+}
+
+.UpHeader-module__C5QAlG__right {
+  margin-left: auto;
+}
+
+@media screen and (width <= 735px) {
+  .UpHeader-module__C5QAlG__flexBetween {
+    display: none;
+  }
+}
+
+@media screen and (width <= 1000px) {
+  .UpHeader-module__C5QAlG__flexBetween {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+/*# sourceMappingURL=src_styles_UpHeader_module_735113.css.map*/

@@ -1,0 +1,310 @@
+/* [project]/src/styles/UpHeader.module.css [client] (css) */
+.UpHeader-module__C5QAlG__inline {
+  display: flex;
+}
+
+.UpHeader-module__C5QAlG__flexBetween {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin: .2rem 0;
+}
+
+.UpHeader-module__C5QAlG__flexEven {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: .5rem;
+}
+
+.UpHeader-module__C5QAlG__right {
+  margin-left: auto;
+}
+
+@media screen and (width <= 735px) {
+  .UpHeader-module__C5QAlG__flexBetween {
+    display: none;
+  }
+}
+
+
+/* [project]/src/styles/Navbar.module.css [client] (css) */
+.Navbar-module__P48_Aa__textLogo {
+  font-family: Manrope;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.Navbar-module__P48_Aa__textLogo2 {
+  font-family: Manrope;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 20px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.Navbar-module__P48_Aa__navmenu {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-evenly;
+  gap: 1.5rem;
+}
+
+.Navbar-module__P48_Aa__navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 22px;
+}
+
+.Navbar-module__P48_Aa__navmenu a {
+  text-decoration: none;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #000a2d;
+}
+
+.Navbar-module__P48_Aa__navmenu a:hover {
+  color: #0e89fc;
+  transform: scale(1.1);
+  transition: all .3s ease-in-out;
+}
+
+.Navbar-module__P48_Aa__button {
+  width: 208px;
+  height: 60px;
+  border: none;
+  background: #0e89fc;
+  color: #fbfbfb;
+  border-radius: 4px;
+  font-family: Manrope;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.Navbar-module__P48_Aa__button:hover {
+  outline: 2px solid #0e89fc;
+  color: #0e89fc;
+  background-color: #fbfbfb;
+  cursor: pointer;
+}
+
+.Navbar-module__P48_Aa__menu {
+  display: none;
+}
+
+.Navbar-module__P48_Aa__overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #00000080;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Navbar-module__P48_Aa__overlay .Navbar-module__P48_Aa__main {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #0003;
+}
+
+@media screen and (width <= 735px) {
+  .Navbar-module__P48_Aa__navmenu, .Navbar-module__P48_Aa__button {
+    display: none;
+  }
+
+  .Navbar-module__P48_Aa__menu {
+    display: block;
+  }
+}
+
+
+/* [project]/src/styles/NavbarOpen.module.css [client] (css) */
+.NavbarOpen-module__JHj8Wa__navmenu {
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 1.5rem;
+  background-color: #f1f8ff;
+}
+
+.NavbarOpen-module__JHj8Wa__main {
+  position: absolute;
+  z-index: 1;
+  top: 80px;
+  left: -100%;
+  width: 100%;
+  height: 90vh;
+  transition: all 1s ease-in-out;
+  padding-bottom: 40px;
+}
+
+.NavbarOpen-module__JHj8Wa__navmenu a {
+  text-decoration: none;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #000a2d;
+}
+
+.NavbarOpen-module__JHj8Wa__navmenu a:hover {
+  color: #0e89fc;
+  transform: scale(1.1);
+  transition: all .3s ease-in-out;
+}
+
+.NavbarOpen-module__JHj8Wa__button {
+  width: 208px;
+  height: 60px;
+  border: none;
+  background: #0e89fc;
+  color: #fbfbfb;
+  border-radius: 4px;
+  font-family: Manrope;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.NavbarOpen-module__JHj8Wa__button:hover {
+  outline: 2px solid #0e89fc;
+  color: #0e89fc;
+  background-color: #fbfbfb;
+  cursor: pointer;
+}
+
+.NavbarOpen-module__JHj8Wa__flexEven {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+
+/* [project]/src/styles/HeroPage.module.css [client] (css) */
+.HeroPage-module___RCilW__hero {
+  margin: 40px 95px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.HeroPage-module___RCilW__line {
+  z-index: -1;
+  position: absolute;
+  min-width: 365px;
+  height: 365px;
+  right: 15%;
+  top: 200px;
+  background: linear-gradient(#2fb8f2 0%, #4b25f500 100%, #617ba3 100%);
+  filter: blur(50px);
+  transform: rotate(180deg);
+}
+
+.HeroPage-module___RCilW__line2 {
+  z-index: -1;
+  position: absolute;
+  min-width: 500px;
+  height: 500px;
+  right: 10%;
+  top: 200px;
+  background: linear-gradient(#7b96ff 0%, #6fc3ff75 100%);
+  filter: blur(80px);
+  transform: rotate(180deg);
+}
+
+.HeroPage-module___RCilW__stars1 {
+  position: relative;
+  top: -400px;
+  left: 160px;
+}
+
+.HeroPage-module___RCilW__stars2 {
+  position: relative;
+  top: -400px;
+  left: 160px;
+}
+
+.HeroPage-module___RCilW__container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.HeroPage-module___RCilW__bg {
+  width: 80%;
+  overflow: hidden;
+  position: absolute;
+  z-index: -5;
+  top: 18%;
+  right: 10%;
+}
+
+.HeroPage-module___RCilW__salut {
+  position: relative;
+  bottom: -20px;
+  font-family: Manrope;
+  font-size: .8rem;
+  font-weight: 700;
+  line-height: 22.4px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #0e89fc;
+}
+
+
+/* [project]/src/styles/Stats.module.css [client] (css) */
+.Stats-module__5OtIWa__statsContainer {
+  position: relative;
+  bottom: 45px;
+  min-height: 150px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  background-color: #f1f8ff;
+}
+
+.Stats-module__5OtIWa__stats {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.Stats-module__5OtIWa__statsText {
+  display: flex;
+  gap: .5rem;
+}
+
+
+/*# sourceMappingURL=src_styles_a668dc._.css.map*/

@@ -1,0 +1,70 @@
+/* [project]/src/styles/NavbarOpen.module.css [client] (css) */
+.NavbarOpen-module__JHj8Wa__navmenu {
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 1.5rem;
+  background-color: #f1f8ff;
+}
+
+.NavbarOpen-module__JHj8Wa__main {
+  position: absolute;
+  z-index: 10;
+  top: 60px;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  transition: all 1s ease-in-out;
+  padding-bottom: 4rem;
+}
+
+.NavbarOpen-module__JHj8Wa__navmenu a {
+  text-decoration: none;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #000a2d;
+}
+
+.NavbarOpen-module__JHj8Wa__navmenu a:hover {
+  color: #0e89fc;
+  transform: scale(1.1);
+  transition: all .3s ease-in-out;
+}
+
+.NavbarOpen-module__JHj8Wa__button {
+  width: 208px;
+  height: 60px;
+  border: none;
+  background: #0e89fc;
+  color: #fbfbfb;
+  border-radius: 4px;
+  font-family: Manrope;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.NavbarOpen-module__JHj8Wa__button:hover {
+  outline: 2px solid #0e89fc;
+  color: #0e89fc;
+  background-color: #fbfbfb;
+  cursor: pointer;
+}
+
+.NavbarOpen-module__JHj8Wa__flexEven {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+/*# sourceMappingURL=src_styles_NavbarOpen_module_735113.css.map*/

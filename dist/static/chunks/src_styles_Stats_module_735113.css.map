@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/src/styles/Stats.module.css"],"sourcesContent":[".statsContainer {\r\n  position: relative;\r\n  bottom: 45px;\r\n  min-height: 150px;\r\n  display: flex;\r\n  justify-content: space-evenly;\r\n  align-items: center;\r\n  width: 100%;\r\n  background-color: #f1f8ff;\r\n}\r\n\r\n.stats {\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n  gap: 1rem;\r\n}\r\n\r\n.statsText {\r\n  display: flex;\r\n  gap: 0.5rem;\r\n}\r\n\r\n@media screen and (max-width: 735px) {\r\n  .statsContainer {\r\n    flex-direction: column;\r\n    position: static;\r\n  }\r\n}\r\n"],"names":[],"mappings":"AAAA;;;;;;;;;;;AAWA;;;;;;;AAOA;;;;;AAKA;EACE"}},
+    {"offset": {"line": 30, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
