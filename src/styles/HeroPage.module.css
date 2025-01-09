@@ -5,6 +5,7 @@
   align-items: center;
   /* margin-top: 50px; */
   gap: 2rem;
+  padding-inline: 2rem;
 }
 
 .line {
@@ -126,10 +127,25 @@
     gap: 200px;
   }
 
-  .bg,
+  .bg {
+    position: relative;
+    display: inline;
+    bottom: 0px;
+  }
+  .container2 {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
   .line,
   .line2 {
-    display: none;
+    min-width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 30%;
+    left: 5%;
   }
 
   .smile {
@@ -137,8 +153,19 @@
     top: 20%;
   }
 
-  .stars1,
+  .stars1 {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+  }
   .stars2 {
-    display: none;
+    position: absolute;
+    top: 26%;
+    left: 32%;
+  }
+
+  .image {
+    width: 300px;
+    height: 400px;
   }
 }

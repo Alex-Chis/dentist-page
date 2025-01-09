@@ -9,42 +9,42 @@ export default function Stats() {
     <div className={styles.statsContainer}>
       <div className={styles.stats}>
         <Image src={stats1} alt="stats1" />
-        <div className="statsText">
+        <div className={styles.statsText}>
           <div>
             <p>12000</p>
-            <p className="plus">+</p>
+            <p className={styles.plus}>+</p>
           </div>
           <p>Pacienti multumiti</p>
         </div>
       </div>
       <div className={styles.stats}>
         <Image src={stats2} alt="stats1" />
-        <div className="statsText">
+        <div className={styles.statsText}>
           <div>
-            <p>12000</p>
-            <p className="plus">+</p>
+            <p>15</p>
+            <p className={styles.plus}>+</p>
           </div>
-          <p>Pacienti multumiti</p>
+          <p>Ani experienta</p>
         </div>
       </div>
       <div className={styles.stats}>
         <Image src={stats3} alt="stats1" />
-        <div className="statsText">
+        <div className={styles.statsText}>
           <div>
-            <p>12000</p>
-            <p className="plus">+</p>
+            <p>70</p>
+            <p className={styles.plus}>+</p>
           </div>
-          <p>Pacienti multumiti</p>
+          <p>Doctori si angajati</p>
         </div>
       </div>
       <div className={styles.stats}>
         <Image src={stats4} alt="stats1" />
-        <div className="statsText">
+        <div className={styles.statsText}>
           <div>
-            <p>12000</p>
-            <p className="plus">+</p>
+            <p>340</p>
+            <p className={styles.plus}>+</p>
           </div>
-          <p>Pacienti multumiti</p>
+          <p>Programari online</p>
         </div>
       </div>
     </div>

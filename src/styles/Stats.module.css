@@ -24,6 +24,36 @@
 @media screen and (max-width: 735px) {
   .statsContainer {
     flex-direction: column;
-    position: static;
+    padding-top: 2rem;
+    gap: 1rem;
+    justify-content: center;
+    align-items: start;
+  }
+  .statsText {
+    display: flex;
+    flex-direction: column;
+  }
+  .statsText > p {
+    font-size: 1rem;
+  }
+
+  .statsText > div {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+  }
+
+  .statsText > div > p:first-child {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #000a2d;
+  }
+
+  .plus {
+    width: 33px;
+    height: 50px;
+    line-height: 50px;
+    color: #0e89fc;
+    font-size: 50px;
   }
 }

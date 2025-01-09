@@ -6,6 +6,7 @@
   display: flex;
   justify-content: space-between;
   margin: 0.2rem 0;
+  padding-inline: 2rem;
 }
 
 .flexEven {

@@ -1321,6 +1321,7 @@ var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_
 __turbopack_export_value__({
   "bg": "HeroPage-module___RCilW__bg",
   "container": "HeroPage-module___RCilW__container",
+  "container2": "HeroPage-module___RCilW__container2",
   "description": "HeroPage-module___RCilW__description",
   "hero": "HeroPage-module___RCilW__hero",
   "image": "HeroPage-module___RCilW__image",
@@ -1622,6 +1623,7 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, t: __turbopack_require_real__ } = __turbopack_context__;
 {
 __turbopack_export_value__({
+  "plus": "Stats-module__5OtIWa__plus",
   "stats": "Stats-module__5OtIWa__stats",
   "statsContainer": "Stats-module__5OtIWa__statsContainer",
   "statsText": "Stats-module__5OtIWa__statsText",
@@ -1665,7 +1667,7 @@ function Stats() {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "statsText",
+                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$styles$2f$Stats$2e$module$2e$css__$5b$client$5d$__$28$css__module$29$__["default"].statsText,
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 children: [
@@ -1677,7 +1679,7 @@ function Stats() {
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "plus",
+                                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$styles$2f$Stats$2e$module$2e$css__$5b$client$5d$__$28$css__module$29$__["default"].plus,
                                         children: "+"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Stats.tsx",
@@ -1721,19 +1723,19 @@ function Stats() {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "statsText",
+                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$styles$2f$Stats$2e$module$2e$css__$5b$client$5d$__$28$css__module$29$__["default"].statsText,
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        children: "12000"
+                                        children: "15"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Stats.tsx",
                                         lineNumber: 24,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "plus",
+                                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$styles$2f$Stats$2e$module$2e$css__$5b$client$5d$__$28$css__module$29$__["default"].plus,
                                         children: "+"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Stats.tsx",
@@ -1747,7 +1749,7 @@ function Stats() {
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                children: "Pacienti multumiti"
+                                children: "Ani experienta"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Stats.tsx",
                                 lineNumber: 27,
@@ -1777,19 +1779,19 @@ function Stats() {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "statsText",
+                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$styles$2f$Stats$2e$module$2e$css__$5b$client$5d$__$28$css__module$29$__["default"].statsText,
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        children: "12000"
+                                        children: "70"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Stats.tsx",
                                         lineNumber: 34,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "plus",
+                                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$styles$2f$Stats$2e$module$2e$css__$5b$client$5d$__$28$css__module$29$__["default"].plus,
                                         children: "+"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Stats.tsx",
@@ -1803,7 +1805,7 @@ function Stats() {
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                children: "Pacienti multumiti"
+                                children: "Doctori si angajati"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Stats.tsx",
                                 lineNumber: 37,
@@ -1833,19 +1835,19 @@ function Stats() {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "statsText",
+                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$styles$2f$Stats$2e$module$2e$css__$5b$client$5d$__$28$css__module$29$__["default"].statsText,
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        children: "12000"
+                                        children: "340"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Stats.tsx",
                                         lineNumber: 44,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "plus",
+                                        className: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$styles$2f$Stats$2e$module$2e$css__$5b$client$5d$__$28$css__module$29$__["default"].plus,
                                         children: "+"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/Stats.tsx",
@@ -1859,7 +1861,7 @@ function Stats() {
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                children: "Pacienti multumiti"
+                                children: "Programari online"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Stats.tsx",
                                 lineNumber: 47,

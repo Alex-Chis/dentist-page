@@ -5,6 +5,7 @@
   justify-content: space-between;
   align-items: center;
   gap: 2rem;
+  padding-inline: 2rem;
 }
 
 .HeroPage-module___RCilW__line {
@@ -111,8 +112,25 @@
     gap: 200px;
   }
 
-  .HeroPage-module___RCilW__bg, .HeroPage-module___RCilW__line, .HeroPage-module___RCilW__line2 {
-    display: none;
+  .HeroPage-module___RCilW__bg {
+    position: relative;
+    display: inline;
+    bottom: 0;
+  }
+
+  .HeroPage-module___RCilW__container2 {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .HeroPage-module___RCilW__line, .HeroPage-module___RCilW__line2 {
+    min-width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 30%;
+    left: 5%;
   }
 
   .HeroPage-module___RCilW__smile {
@@ -120,8 +138,21 @@
     top: 20%;
   }
 
-  .HeroPage-module___RCilW__stars1, .HeroPage-module___RCilW__stars2 {
-    display: none;
+  .HeroPage-module___RCilW__stars1 {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+  }
+
+  .HeroPage-module___RCilW__stars2 {
+    position: absolute;
+    top: 26%;
+    left: 32%;
+  }
+
+  .HeroPage-module___RCilW__image {
+    width: 300px;
+    height: 400px;
   }
 }
 

@@ -8,6 +8,7 @@
   display: flex;
   justify-content: space-between;
   margin: .2rem 0;
+  padding-inline: 2rem;
 }
 
 .UpHeader-module__C5QAlG__flexEven {
@@ -38,6 +39,7 @@
 /* [project]/src/styles/Navbar.module.css [client] (css) */
 .Navbar-module__P48_Aa__container {
   height: 60px;
+  padding-inline: 2rem;
 }
 
 .Navbar-module__P48_Aa__textLogo {
@@ -233,6 +235,7 @@
   justify-content: space-between;
   align-items: center;
   gap: 2rem;
+  padding-inline: 2rem;
 }
 
 .HeroPage-module___RCilW__line {
@@ -339,8 +342,25 @@
     gap: 200px;
   }
 
-  .HeroPage-module___RCilW__bg, .HeroPage-module___RCilW__line, .HeroPage-module___RCilW__line2 {
-    display: none;
+  .HeroPage-module___RCilW__bg {
+    position: relative;
+    display: inline;
+    bottom: 0;
+  }
+
+  .HeroPage-module___RCilW__container2 {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .HeroPage-module___RCilW__line, .HeroPage-module___RCilW__line2 {
+    min-width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 30%;
+    left: 5%;
   }
 
   .HeroPage-module___RCilW__smile {
@@ -348,8 +368,21 @@
     top: 20%;
   }
 
-  .HeroPage-module___RCilW__stars1, .HeroPage-module___RCilW__stars2 {
-    display: none;
+  .HeroPage-module___RCilW__stars1 {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+  }
+
+  .HeroPage-module___RCilW__stars2 {
+    position: absolute;
+    top: 26%;
+    left: 32%;
+  }
+
+  .HeroPage-module___RCilW__image {
+    width: 300px;
+    height: 400px;
   }
 }
 
@@ -381,7 +414,39 @@
 @media screen and (width <= 735px) {
   .Stats-module__5OtIWa__statsContainer {
     flex-direction: column;
-    position: static;
+    padding-top: 2rem;
+    gap: 1rem;
+    justify-content: center;
+    align-items: ;
+  }
+
+  .Stats-module__5OtIWa__statsText {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Stats-module__5OtIWa__statsText > p {
+    font-size: 1rem;
+  }
+
+  .Stats-module__5OtIWa__statsText > div {
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+  }
+
+  .Stats-module__5OtIWa__statsText > div > p:first-child {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #000a2d;
+  }
+
+  .Stats-module__5OtIWa__plus {
+    width: 33px;
+    height: 50px;
+    line-height: 50px;
+    color: #0e89fc;
+    font-size: 50px;
   }
 }
 
@@ -390,7 +455,6 @@
 .Home-module__Ho9lYW__main {
   max-width: 1100px;
   margin-inline: auto;
-  padding-inline: 2rem;
 }
 
 

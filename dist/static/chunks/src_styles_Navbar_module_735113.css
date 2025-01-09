@@ -1,6 +1,7 @@
 /* [project]/src/styles/Navbar.module.css [client] (css) */
 .Navbar-module__P48_Aa__container {
   height: 60px;
+  padding-inline: 2rem;
 }
 
 .Navbar-module__P48_Aa__textLogo {

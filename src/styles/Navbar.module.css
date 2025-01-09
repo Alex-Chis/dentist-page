@@ -1,5 +1,6 @@
 .container {
   height: 60px;
+  padding-inline: 2rem;
 }
 
 .textLogo {
