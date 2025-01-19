@@ -48,6 +48,7 @@
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  position: relative;
 }
 
 .HeroPage-module___RCilW__bg {
@@ -74,8 +75,8 @@
 
 .HeroPage-module___RCilW__smile {
   position: absolute;
-  right: 52%;
-  top: 40%;
+  right: 0%;
+  top: -5%;
 }
 
 .HeroPage-module___RCilW__container h1 {
@@ -102,6 +103,28 @@
   .HeroPage-module___RCilW__hero {
     margin: 10px 0;
   }
+
+  .HeroPage-module___RCilW__smile {
+    top: 5%;
+    right: 15%;
+  }
+}
+
+.HeroPage-module___RCilW__button {
+  width: 208px;
+  height: 50px;
+  border: none;
+  background: #0e89fc;
+  color: #fbfbfb;
+  border-radius: 4px;
+  font-family: Manrope;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  display: none;
 }
 
 @media screen and (width <= 735px) {
@@ -134,8 +157,13 @@
   }
 
   .HeroPage-module___RCilW__smile {
-    right: 15%;
-    top: 20%;
+    top: -10%;
+    right: 10%;
+  }
+
+  .HeroPage-module___RCilW__salut {
+    position: relative;
+    left: 0;
   }
 
   .HeroPage-module___RCilW__stars1 {
@@ -153,6 +181,17 @@
   .HeroPage-module___RCilW__image {
     width: 300px;
     height: 400px;
+  }
+
+  .HeroPage-module___RCilW__button {
+    display: block;
+  }
+}
+
+@media screen and (width <= 425px) {
+  .HeroPage-module___RCilW__smile {
+    top: 5%;
+    right: 15%;
   }
 }
 

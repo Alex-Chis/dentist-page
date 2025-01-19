@@ -21,6 +21,7 @@ export default function HeroPage() {
           <br /> de ultimă generație și cele mai bune materiale,
           <br /> pentru a-ți oferi rezultate sigure și durabile.
         </p>
+        <button className={styles.button}>Programare Online</button>
       </div>
       <div className={styles.container2}>
         <Image className={styles.bg} src={BgImg} alt="bg" fill={true} />

@@ -7,44 +7,46 @@ import styles from "@/styles/Stats.module.css";
 export default function Stats() {
   return (
     <div className={styles.statsContainer}>
-      <div className={styles.stats}>
-        <Image src={stats1} alt="stats1" />
-        <div className={styles.statsText}>
-          <div>
-            <p>12000</p>
-            <p className={styles.plus}>+</p>
+      <div className={styles.statsContainer2}>
+        <div className={styles.stats}>
+          <Image src={stats1} alt="stats1" />
+          <div className={styles.statsText}>
+            <div>
+              <p>12000</p>
+              <p className={styles.plus}>+</p>
+            </div>
+            <p>Pacienti multumiti</p>
           </div>
-          <p>Pacienti multumiti</p>
         </div>
-      </div>
-      <div className={styles.stats}>
-        <Image src={stats2} alt="stats1" />
-        <div className={styles.statsText}>
-          <div>
-            <p>15</p>
-            <p className={styles.plus}>+</p>
+        <div className={styles.stats}>
+          <Image src={stats2} alt="stats1" />
+          <div className={styles.statsText}>
+            <div>
+              <p>15</p>
+              <p className={styles.plus}>+</p>
+            </div>
+            <p>Ani experienta</p>
           </div>
-          <p>Ani experienta</p>
         </div>
-      </div>
-      <div className={styles.stats}>
-        <Image src={stats3} alt="stats1" />
-        <div className={styles.statsText}>
-          <div>
-            <p>70</p>
-            <p className={styles.plus}>+</p>
+        <div className={styles.stats}>
+          <Image src={stats3} alt="stats1" />
+          <div className={styles.statsText}>
+            <div>
+              <p>70</p>
+              <p className={styles.plus}>+</p>
+            </div>
+            <p>Doctori si angajati</p>
           </div>
-          <p>Doctori si angajati</p>
         </div>
-      </div>
-      <div className={styles.stats}>
-        <Image src={stats4} alt="stats1" />
-        <div className={styles.statsText}>
-          <div>
-            <p>340</p>
-            <p className={styles.plus}>+</p>
+        <div className={styles.stats}>
+          <Image src={stats4} alt="stats1" />
+          <div className={styles.statsText}>
+            <div>
+              <p>340</p>
+              <p className={styles.plus}>+</p>
+            </div>
+            <p>Programari online</p>
           </div>
-          <p>Programari online</p>
         </div>
       </div>
     </div>
