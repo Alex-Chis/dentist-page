@@ -4,10 +4,17 @@
   bottom: 45px;
   min-height: 150px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   width: 100%;
   background-color: #f1f8ff;
+}
+
+.Stats-module__5OtIWa__statsContainer2 {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: space-evenly;
 }
 
 .Stats-module__5OtIWa__stats {
@@ -19,7 +26,31 @@
 
 .Stats-module__5OtIWa__statsText {
   display: flex;
+  flex-direction: column;
+}
+
+.Stats-module__5OtIWa__statsText > p {
+  font-size: 1rem;
+}
+
+.Stats-module__5OtIWa__statsText > div {
+  display: flex;
   gap: .5rem;
+  align-items: center;
+}
+
+.Stats-module__5OtIWa__statsText > div > p:first-child {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #000a2d;
+}
+
+.Stats-module__5OtIWa__plus {
+  width: 33px;
+  height: 50px;
+  line-height: 50px;
+  color: #0e89fc;
+  font-size: 50px;
 }
 
 @media screen and (width <= 735px) {
